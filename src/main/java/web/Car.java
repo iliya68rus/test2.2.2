@@ -1,9 +1,9 @@
 package web;
 
 public class Car {
-    String model;
-    String color;
-    int series;
+    private String model;
+    private String color;
+    private int series;
 
     public Car(String model, String color, int series) {
         this.model = model;
